@@ -2,6 +2,11 @@
 
 This repo is associated with the paper "Can automated vocal analyses over child-centered audio recordings be used to predict speech-language development?"
 
+## Overview
+
+CHN = Key Child Near vocalization
+.its = output file generated from naturalistic daylong recording
+
 The following files were used for preprocessing of audio and statistical analysis: 
 
 ## 1. Audio Preprocessing 
