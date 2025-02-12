@@ -5,10 +5,10 @@ This repo is associated with the paper "Can automated vocal analyses over child-
 The following files were used for preprocessing of audio and statistical analysis: 
 
 ## 1. Audio Preprocessing 
-1. get_CHN_clips.py
+### 1.1 get_CHN_clips.py
 - takes in raw audio and retrieves CHN clips based on timestamps in the .its file for the corresponding recording
 
-2. chop_CHN_clips.py
+### 1.2 chop_CHN_clips.py
 - chops each CHN clip into a 500ms bit, appending any remainder <200ms onto the last utterance
 - stores metadata of all utterances
     - unique utterance id
@@ -18,7 +18,7 @@ The following files were used for preprocessing of audio and statistical analysi
     - duration of clip
 
 ## 2. Modeling and Statistical Analysis
-1. cp_models.ipynb
+### 2.1 cp_models.ipynb
 - includes mutliple linear regression models and statistical analysis for canonical proportion as predictor of the following speech-language measures
     - GFTA-2
     - PPVT-4
