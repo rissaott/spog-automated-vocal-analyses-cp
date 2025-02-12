@@ -78,14 +78,13 @@ if __name__ == "__main__":
     current_directory = os.path.dirname(os.path.abspath(__file__))
     
     # box input directory for raw audio files
-    input_dir = "/Users/carissaott/Library/CloudStorage/Box-Box/box-group-lena-studies/Soundscape/wavFiles/" 
+    input_dir = "" 
     # box input directory for CHN info and output
-    working_dir = "/Users/carissaott/Library/CloudStorage/Box-Box/box-group-lena-studies/student_projects/carissa/AVAproject/its_processing/"
+    working_dir = ""
     # directories for processed its files and chn timestamps on local machine
     chn_dir = working_dir+"chn_timestamp_metadata/"
     count = 0
 
-    processed_child_ids = ["636LTP1", "018LTP2"]
     for csv_file in os.listdir(chn_dir):
         if csv_file.endswith("_CHN_timestamps.csv"):
             # Extract child ID from the CSV filename (e.g., "688LTP1" from "688LTP1_CHN_timestamps.csv")
