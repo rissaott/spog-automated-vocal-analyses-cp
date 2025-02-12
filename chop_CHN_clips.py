@@ -63,9 +63,9 @@ if __name__ == "__main__":
     # Construct the path to the audio file
 
     # box input directory for CHN clips
-    input_dir = "/Users/carissaott/Library/CloudStorage/Box-Box/box-group-lena-studies/student_projects/carissa/AVAproject/its_processing/" 
+    input_dir = "" 
     # box input directory for CHN info and output
-    working_dir = "/Users/carissaott/Library/CloudStorage/Box-Box/box-group-lena-studies/student_projects/carissa/AVAproject/its_processing/"
+    working_dir = ""
     # directories for processed its files and chn timestamps on local machine
     chn_dir = os.path.join(input_dir, "chn_clips/") 
     current_directory = os.path.dirname(os.path.abspath(__file__))
