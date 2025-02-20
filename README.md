@@ -45,4 +45,14 @@ The following files were used for preprocessing of audio and statistical analysi
     - higher weight is given to more clips contributing
 - Scaled model
     - centers and scaled outcome variable to interpret results relative to each other
+ 
+## Procedure
+
+To apply this dataflow:
+
+1. Run script 1.1 on naturalistic raw audio recording with corresponding .its file.
+2. Run script 1.2 and chop the vocalizations into 500ms clips so the model can process.
+3. Use deep learning model (see https://anonymous.4open.science/r/child-speech-maturity-5607/) to classify clips into respective labels.
+4. Calculate canonical proportion for each child based on output (Canonical Proportion = Canonical/(Canonical + Non-Canonical))
+5. Use speech-language scores and canonical proportion measures to fit statistical models using script 2.1.
 
