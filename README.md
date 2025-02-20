@@ -4,6 +4,9 @@ This repo is associated with the paper "Can automated vocal analyses over child-
 
 ## Overview
 
+Daylong (~16 hour) naturalistic child speech audio recordings (N=130) of children at age 3 were chopped into 500ms clips based on vocalization timestamps, then processed through a deep learning model to classify each clip into their respective category (0: canonical, 1: non-canonical, 2: crying, 3: laughing, 4: junk). After classification, statistical analyses were run to determine canonical proportion as a predictor of various speech-language assessments of the same children 1 year later. For more information on model architecture, please see https://anonymous.4open.science/r/child-speech-maturity-5607/. For more information on the dataset, please contact author directly. 
+
+Key Terms:
 CHN = Key Child Near vocalization
 .its = output file generated from naturalistic daylong recording
 
